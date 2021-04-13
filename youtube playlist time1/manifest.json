@@ -1,0 +1,13 @@
+{
+    "name":"유튜브 플레이리스트 총 시간1",
+    "description":"유튜브 플레이리스트 총 시간을 계산해서 보여준다.",
+    "version":"1.0",
+    "permissions":["activeTab","tabs"],
+    "manifest_version":2,
+    "browser_action":{
+        "default_title":"유튜브 플레이리스트 총 시간1",
+        "default_popup":"index.html",
+        "default_icon":"youtube1.png"
+    },
+    "content_script" : [{"js" : ["youtube_playlist_total_time.js"]}]
+}
